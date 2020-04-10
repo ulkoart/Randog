@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CE41542F243F59640001EAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41542E243F59640001EAEC /* AppDelegate.swift */; };
-		CE415431243F59640001EAEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE415430243F59640001EAEC /* SceneDelegate.swift */; };
 		CE415433243F59640001EAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE415432243F59640001EAEC /* ViewController.swift */; };
 		CE415436243F59640001EAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE415434243F59640001EAEC /* Main.storyboard */; };
 		CE415438243F59660001EAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE415437243F59660001EAEC /* Assets.xcassets */; };
 		CE41543B243F59660001EAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE415439243F59660001EAEC /* LaunchScreen.storyboard */; };
+		CE415446243F5C560001EAEC /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE415445243F5C560001EAEC /* DogAPI.swift */; };
+		CE415448243F668E0001EAEC /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE415447243F668E0001EAEC /* DogImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE41542B243F59640001EAEC /* Randog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE41542E243F59640001EAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE415430243F59640001EAEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE415432243F59640001EAEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE415435243F59640001EAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE415437243F59660001EAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE41543A243F59660001EAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE41543C243F59660001EAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE415445243F5C560001EAEC /* DogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
+		CE415447243F668E0001EAEC /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		CE41542D243F59640001EAEC /* Randog */ = {
 			isa = PBXGroup;
 			children = (
-				CE41542E243F59640001EAEC /* AppDelegate.swift */,
-				CE415430243F59640001EAEC /* SceneDelegate.swift */,
-				CE415432243F59640001EAEC /* ViewController.swift */,
-				CE415434243F59640001EAEC /* Main.storyboard */,
-				CE415437243F59660001EAEC /* Assets.xcassets */,
-				CE415439243F59660001EAEC /* LaunchScreen.storyboard */,
+				CE415444243F59E50001EAEC /* Model */,
+				CE415442243F59AF0001EAEC /* View */,
+				CE415443243F59DB0001EAEC /* Controller */,
 				CE41543C243F59660001EAEC /* Info.plist */,
 			);
 			path = Randog;
+			sourceTree = "<group>";
+		};
+		CE415442243F59AF0001EAEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE415434243F59640001EAEC /* Main.storyboard */,
+				CE415437243F59660001EAEC /* Assets.xcassets */,
+				CE415439243F59660001EAEC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE415443243F59DB0001EAEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE415432243F59640001EAEC /* ViewController.swift */,
+				CE41542E243F59640001EAEC /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE415444243F59E50001EAEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE415445243F5C560001EAEC /* DogAPI.swift */,
+				CE415447243F668E0001EAEC /* DogImage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +167,8 @@
 			files = (
 				CE415433243F59640001EAEC /* ViewController.swift in Sources */,
 				CE41542F243F59640001EAEC /* AppDelegate.swift in Sources */,
-				CE415431243F59640001EAEC /* SceneDelegate.swift in Sources */,
+				CE415448243F668E0001EAEC /* DogImage.swift in Sources */,
+				CE415446243F5C560001EAEC /* DogAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = Randog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = Randog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
