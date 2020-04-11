@@ -14,6 +14,7 @@
 		CE41543B243F59660001EAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE415439243F59660001EAEC /* LaunchScreen.storyboard */; };
 		CE415446243F5C560001EAEC /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE415445243F5C560001EAEC /* DogAPI.swift */; };
 		CE415448243F668E0001EAEC /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE415447243F668E0001EAEC /* DogImage.swift */; };
+		CE41544A2441B9380001EAEC /* BreedsListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4154492441B9380001EAEC /* BreedsListResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE41543C243F59660001EAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE415445243F5C560001EAEC /* DogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
 		CE415447243F668E0001EAEC /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
+		CE4154492441B9380001EAEC /* BreedsListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsListResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				CE415445243F5C560001EAEC /* DogAPI.swift */,
 				CE415447243F668E0001EAEC /* DogImage.swift */,
+				CE4154492441B9380001EAEC /* BreedsListResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				CE415433243F59640001EAEC /* ViewController.swift in Sources */,
 				CE41542F243F59640001EAEC /* AppDelegate.swift in Sources */,
+				CE41544A2441B9380001EAEC /* BreedsListResponse.swift in Sources */,
 				CE415448243F668E0001EAEC /* DogImage.swift in Sources */,
 				CE415446243F5C560001EAEC /* DogAPI.swift in Sources */,
 			);
